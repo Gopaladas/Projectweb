@@ -1,0 +1,230 @@
+.technologySolution-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80vh;
+  padding: 30px;
+  background: url('../assets/tech solutions/tech1.gif') no-repeat center center/cover;
+  color: white;
+  position: relative;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* Left section styling */
+.technologySolution-left {
+  width: 35%;
+  padding-right: 20px;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.technologySolution-left h3 {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.technologySolution-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.technologySolution-button {
+  position: relative;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.technologySolution-button:hover {
+  background: #2575fc;
+  color: white;
+}
+
+.technologySolution-tooltip {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: visibility 0.3s, opacity 0.3s;
+}
+
+.technologySolution-button:hover .technologySolution-tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Right section content */
+.technologySolution-right {
+  width: 50%; /* Updated from 130% to 50% for better layout */
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  justify-content: center;
+  align-items: flex-end; /* Align content to the right */
+  text-align: right;
+}
+
+.technologySolution-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.technologySolution-description {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.s1 {
+  font-size: 29px;
+  font-weight: bold;
+}
+
+.s2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.italic {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.s3 {
+  font-size: 15px;
+}
+
+.infi {
+  color: red;
+}
+
+/* Social links styling */
+.technologySolution-social {
+  margin-top: 20px;
+}
+
+.technologySolution-social span {
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.technologySolution-social a {
+  margin-right: 10px;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.technologySolution-social a:hover {
+  color: #ffd700;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  .technologySolution-container {
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+  }
+
+  .technologySolution-left, .technologySolution-right {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .technologySolution-right {
+    align-items: center; /* Center the content in mobile view */
+    text-align: center;
+  }
+
+  .technologySolution-description {
+    font-size: 16px;
+  }
+
+  .s1 {
+    font-size: 24px;
+  }
+
+  .s2 {
+    font-size: 18px;
+  }
+
+  .technologySolution-social span, .technologySolution-social a {
+    font-size: 16px;
+  }
+
+  .technologySolution-left h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .technologySolution-buttons {
+    gap: 20px;
+  }
+
+  .technologySolution-button {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .technologySolution-description {
+    font-size: 14px;
+  }
+
+  .s1 {
+    font-size: 20px;
+  }
+
+  .s2 {
+    font-size: 16px;
+  }
+
+  .technologySolution-social span, .technologySolution-social a {
+    font-size: 14px;
+  }
+
+  .technologySolution-left h3 {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .technologySolution-buttons {
+    gap: 15px;
+  }
+
+  .technologySolution-button {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}
+
+/* Prevent horizontal scrolling */
+body {
+  overflow-x: hidden;
+}

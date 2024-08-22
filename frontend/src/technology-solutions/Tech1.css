@@ -1,0 +1,117 @@
+.technology-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin: 10px 40px;
+  }
+  
+  .technology-intro {
+    margin-bottom: 20px;
+    
+  }
+
+  .tech-question{
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .technology-description {
+    font-size: 22px;
+    line-height: 1.6;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+  }
+  
+  .technology-experience-contact {
+    display: flex;
+    background-color: #e0e0e0;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px -60px;
+    padding: 40px;
+  }
+  
+  .technology-experience h2 {
+    margin-left: 20px;
+    font-size: 35px;
+    color: #111;
+  }
+  
+  .technology-contact {
+    text-align: right;
+    font-size: 16px;
+    color: #444;
+  }
+
+  .technology-contact a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .technology-gif-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .technology-gif-item {
+    text-align: center;
+  }
+  
+  .gif-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .technology-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .square-box {
+    width: 8px;
+    height: 8px;
+    background-color: #000;
+    margin-right: 8px;
+  }
+  
+  .technology-title p {
+    font-size: 16px;
+    color: #222;
+    font-weight: bold;
+  }
+  
+  /* Media Query for Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .technology-experience-contact {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .technology-contact {
+      text-align: left;
+      margin-top: 10px;
+    }
+  
+    .technology-gif-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .technology-gif-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .technology-experience h2 {
+      font-size: 22px;
+    }
+  
+    .technology-description {
+      font-size: 16px;
+    }
+  }
+  
