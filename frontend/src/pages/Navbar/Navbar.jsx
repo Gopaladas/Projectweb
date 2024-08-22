@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 // import infinity1 from "./infinity1.gif";
-import imgamx from "../../assets/infinity1.png"; // Adjust the path if needed
-// import imgamx from "../Aboutus/amxsol.png";
+// import imgamx from "../../assets/infinity1.png"; // Adjust the path if needed
+import imgamx from "../Aboutus/amxsol.png";
 
 import inimg from "./in.png";
 import { Link } from "react-router-dom";
