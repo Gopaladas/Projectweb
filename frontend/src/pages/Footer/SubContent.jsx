@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import "./Footer.css";
+import "./footer.css";
 import { FiChevronDown, FiChevronRight } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
