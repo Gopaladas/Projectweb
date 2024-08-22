@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import infinity1 from "./infinity1.gif";
+// import infinity1 from "./infinity1.gif";
+import infinityGif from "../../assets/infinity1.gif"; // Adjust the path if needed
+
 import inimg from "./in.png";
 import { Link } from "react-router-dom";
 import {
@@ -73,7 +75,7 @@ const Navbar = () => {
         <>
           <nav className="h-[60px] w-full bg-black fixed z-1000">
             <div className="leftnav box-border h-[60px] flex justify-center align-center pt-[10px]">
-              <img src={infinity1} className="relative h-full  box-border" />
+              <img src={infinityGif} className="relative h-full  box-border" />
               <a
                 href="#"
                 className="mainhead bolder  not-italic text-s flex pt-[8px]"
@@ -743,7 +745,7 @@ const Navbar = () => {
         <>
           <nav className="h-[60px] w-full bg-black fixed z-10">
             <div className="leftnav box-border h-[60px] flex justify-center align-center pt-[10px]">
-              <img src={infinity1} className="relative h-full  box-border" />
+              <img src={infinityGif} className="relative h-full  box-border" />
               <a
                 href="#"
                 className="mainhead bolder  not-italic text-s flex pt-[8px]"
@@ -1629,7 +1631,7 @@ const Navbar = () => {
                   )}
                 </button>
               </div>
-              <img src={infinity1} className="relative h-full  box-border" />
+              <img src={infinityGif} className="relative h-full  box-border" />
               <a
                 href="#"
                 className="text-2xl not-italic text-s pt-[8px] headhide"
