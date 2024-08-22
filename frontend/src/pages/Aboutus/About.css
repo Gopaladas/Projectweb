@@ -1,0 +1,595 @@
+/* App.css */
+
+.about-container {
+  position: relative;
+  width: 99.89vw;
+  height: 70vh;
+  /* overflow: hidden; */
+  /* background: rgb(180, 166, 166); */
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.about-left {
+  width: 100%;
+  color: rgb(253, 250, 250);
+  padding: 20px;
+}
+
+.about-content-overlay {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.content {
+  display: grid;
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+  grid-template-columns: 50% 50%;
+  height: 70vh;
+  width: 99.89vw;
+  /* padding: 0 5%; */
+  color: white;
+  /* background-color: rgb(171, 138, 202); */
+}
+
+.left-side {
+  width: 100%;
+}
+
+.left-side p:first-child {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.about-us {
+  color: red;
+  font-weight: bold;
+  font-size: 3em;
+  margin: 0;
+}
+
+.description {
+  color: white;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.right-side {
+  width: 100%;
+  text-align: center;
+}
+
+.brand {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.contact-us {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.solutions {
+  margin-top: 20px;
+  font-size: 1em;
+}
+
+.social-media {
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+.last {
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+}
+.rectangle {
+  margin-top: 14px;
+  margin-right: 20px;
+  width: 9px; /* Width of the rectangle */
+  height: 9px; /* Height of the rectangle */
+  background-color: white; /* Background color of the rectangle */
+}
+
+.point {
+  display: flex;
+  /* align-items: space; */
+  /* align-items:center; */
+  gap: 10px;
+}
+.aboutpara {
+  margin-left: 75px;
+}
+.paragraph {
+  line-height: 2; /* Adjust the value as needed */
+  font-size: 1em;
+  text-align: justify;
+}
+.paragraph-2 {
+  line-height: 2; /* Adjust the value as needed */
+  font-size: 1em;
+}
+.twoinfo {
+  height: 100%;
+  /* width:auto; */
+  background: lightgrey;
+  display: flex;
+  align-items: center;
+  /* margin-left: 10px; */
+  justify-content: space-between;
+}
+.twoinfo p {
+  /* padding-left: 10px; */
+  margin-left: 50px;
+  align-items: center;
+  padding-right: 20px;
+}
+.stateheading {
+  font-family: "Canveat", sans-serif;
+  font-size: 2.3em;
+  font-weight: 340;
+  color: #353935;
+}
+
+.paragrid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  /* justify-content: space-between; */
+}
+
+.paragrid p {
+  font-family: "Canveat", sans-serif;
+}
+.paragrid .para-1 {
+  padding-left: 50px;
+  padding-right: 35px;
+  font-size: 14px;
+  font-family: "Caveat", sans-serif;
+  color: lightblack;
+  text-align: justify;
+}
+.singlegrid {
+  display: flex;
+  height: 150px;
+  background: lightgray;
+  align-items: center;
+}
+.singlegrid p {
+  padding-left: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3.2em;
+  font-weight: 700;
+  color: #353935;
+}
+.moreparas {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  color: #353935;
+}
+.moreparas p {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 13px;
+}
+
+.knowmore {
+  background: lightgray;
+  height: 150px;
+  /* align-items: center;
+  /* padding-left: 30%; */
+  /* padding-top: 3%;  */
+  display: flex;
+  flex-direction: column; /* Stack the paragraphs vertically */
+  justify-content: center; /* Center the items vertically */
+  align-items: center;
+  margin-top: 30px;
+}
+.knowmore p:last-child {
+  margin-top: 30px; /* Adds two lines of space before the last paragraph */
+}
+.whatwedo p:nth-child(2) {
+  margin-top: 20px;
+}
+.whatwedo p:nth-child(3) {
+  margin-top: 20px;
+}
+.imagebg {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: lightgray;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.imagebg p {
+  background-color: white;
+  width: 350px;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.capabilities {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 30px; */
+  height: 320px;
+  background: lightgray;
+  font-size: 12.5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.capabilities p {
+  line-height: 2;
+  font-weight: 600;
+}
+
+.capabilities p:nth-child(2) {
+  margin-top: 20px;
+}
+.capabilities p:nth-child(6) {
+  margin-top: 20px;
+}
+.capabilities p:nth-child(7) {
+  margin-top: 20px;
+}
+.capabilities p:nth-child(9) {
+  margin-top: 20px;
+}
+.bottomp {
+  /* margin-left: 80px; */
+  /* margin-right: 60px; */
+  margin: 40px;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #353935;
+}
+
+.bottomp p:nth-child(2) {
+  margin-top: 20px;
+}
+.bottomp p:nth-child(3) {
+  font-size: 1.5em;
+  color: #353935;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.rightend {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+  text-align: justify;
+}
+
+.morechanges {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 60px;
+}
+
+.morechanges p {
+  margin-bottom: 10px;
+}
+.imagebg {
+  background-image: url("bgimg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.full-width {
+  width: 100%;
+  max-width: 100%;
+}
+
+.section-title {
+  margin-bottom: 2rem;
+  font-size: 1em;
+}
+
+.description {
+  margin-bottom: 5rem;
+}
+
+.red-text {
+  color: red;
+}
+
+.italic-text {
+  font-family: "Caveat", serif;
+  font-style: italic;
+}
+
+.right-side {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 1.6;
+}
+
+.right-side h1 {
+  margin: 0;
+}
+
+.contact-us {
+  font-family: "Caveat", serif;
+  font-style: italic;
+  margin: 0;
+}
+
+.services {
+  margin: 10px 0;
+}
+
+.social-media {
+  margin: 0;
+}
+/*  */
+
+.About-right {
+  width: 100%;
+  color: rgb(253, 250, 250);
+  padding: 20px;
+  /* margin-left: 170px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+}
+
+.aboutheading {
+  background-color: transparent;
+  font-size: 5em;
+  color: #353935;
+  font-weight: 800;
+}
+
+.about-description {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  transform: scaleY(1.3);
+  z-index: -1000;
+}
+
+.aboutpara {
+  margin: 50px;
+}
+
+.heading {
+  font-size: 2em;
+}
+
+.aboutimagebg {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: lightgray;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.aboutimagebg p {
+  background-color: white;
+  width: 320px;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.aboutimagebg {
+  background-image: url("bgimg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.partner {
+  background-color: transparent;
+  font-size: 4.7em;
+  color: orange;
+  font-weight: 800;
+  margin-left: 80px;
+}
+
+@media (max-width: 768px) {
+  .aboutheading {
+    background-color: transparent;
+    font-size: 3em;
+    color: #353935;
+    font-weight: 800;
+  }
+
+  .aboutpara {
+    margin: 50px;
+  }
+
+  .twoinfo {
+    height: 100%;
+    /* width:auto; */
+    background: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-left: 10px; */
+    justify-content: space-between;
+  }
+
+  .twoinfo p {
+    text-align: justify;
+  }
+
+  .stateheading {
+    font-family: "Canveat", sans-serif;
+    font-size: 2em;
+    font-weight: 340;
+    color: #353935;
+  }
+
+  .paragrid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* justify-content: space-between; */
+  }
+
+  .paragrid .para-1 {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .singlegrid p {
+    font-size: 2.5em;
+  }
+
+  .moreparas {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+    color: #353935;
+  }
+
+  .aboutimagebg {
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 300px;
+  }
+
+  .partner {
+    background-color: transparent;
+    font-size: 2.5em;
+    color: orange;
+    font-weight: 800;
+    margin-left: 0px;
+  }
+
+  .aboutimagebg p {
+    width: 280px;
+  }
+}
+
+@media (max-width: 468px) {
+  .aboutheading {
+    background-color: transparent;
+    font-size: 2em;
+    color: #353935;
+    font-weight: 800;
+  }
+
+  .aboutpara {
+    margin-left: 30px;
+  }
+
+  .twoinfo {
+    height: 100%;
+    /* width:auto; */
+    background: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-left: 10px; */
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    row-gap: 20px;
+  }
+
+  .about-description {
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    transform: scaleY(1.4);
+    z-index: -1000;
+  }
+
+  .rectangle {
+    margin-top: 8px;
+    margin-right: 20px;
+    width: 9px; /* Width of the rectangle */
+    height: 9px; /* Height of the rectangle */
+    background-color: white; /* Background color of the rectangle */
+  }
+
+  .paragrid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 100%;
+    /* justify-content: space-between; */
+  }
+
+  .paragrid .para-1 {
+    width: 100%;
+    /* background-color: rgb(143, 238, 238); */
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+
+  .singlegrid p {
+    font-size: 1.5em;
+  }
+
+  .moreparas {
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+    row-gap: 20px;
+    color: #353935;
+  }
+
+  .aboutimgagebgsub {
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    /* background-color: green; */
+  }
+
+  .partner {
+    background-color: transparent;
+    font-size: 1.5em;
+    color: orange;
+    font-weight: 800;
+    margin-left: 0px;
+  }
+
+  .aboutimagebg p {
+    width: 280px;
+  }
+}
