@@ -113,6 +113,12 @@ input::placeholder {
   display: flex;
 }
 
+.imgamx {
+  /* background-color: lightblue; */
+  /* filter: drop-shadow(5px 5px -10px rgba(229, 245, 7, 1)); */
+  /* background-color: white; */
+}
+
 @media (max-width: 478px) {
   /* .search_nav {
     width: 300px;

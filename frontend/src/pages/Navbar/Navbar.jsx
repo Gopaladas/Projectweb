@@ -76,12 +76,14 @@ const Navbar = () => {
         <>
           <nav className="h-[60px] w-full bg-black fixed z-1000">
             <div className="leftnav box-border h-[60px] flex justify-center align-center pt-[10px]">
-              <img src={imgamx} className="relative h-full  box-border" />
+              <img
+                src={imgamx}
+                className="relative h-[30px] w-[100px]  box-border m-auto"
+              />
               <a
                 href="#"
                 className="mainhead bolder  not-italic text-s flex pt-[8px]"
               >
-                AMXSOL
                 <span>
                   <img src={inimg} className="h-[20px] ml-[8px] mt-[8px]" />
                 </span>
@@ -746,12 +748,14 @@ const Navbar = () => {
         <>
           <nav className="h-[60px] w-full bg-black fixed z-10">
             <div className="leftnav box-border h-[60px] flex justify-center align-center pt-[10px]">
-              <img src={imgamx} className="relative h-full  box-border" />
+              <img
+                src={imgamx}
+                className="relative  h-[30px] w-[100px]  box-border m-auto"
+              />
               <a
                 href="#"
                 className="mainhead bolder  not-italic text-s flex pt-[8px]"
               >
-                AMXSOL
                 <span>
                   <img src={inimg} className="h-[20px] ml-[8px] mt-[8px]" />
                 </span>
@@ -1632,12 +1636,15 @@ const Navbar = () => {
                   )}
                 </button>
               </div>
-              <img src={imgamx} className="relative h-full  box-border" />
+              <img
+                src={imgamx}
+                className="relative h-[30px] w-[100px]  box-border m-auto imgamx"
+              />
               <a
                 href="#"
                 className="text-2xl not-italic text-s pt-[8px] headhide"
               >
-                AMXSOL
+                {/* AMXSOL */}
                 <span>
                   <img src={inimg} className="h-[20px] ml-[8px] mt-[10px]" />
                 </span>
