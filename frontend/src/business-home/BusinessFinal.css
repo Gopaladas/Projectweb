@@ -1,0 +1,135 @@
+/* Container styling for the BusinessFinal component */
+.businessfinal-container {
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+/* Header and Description */
+.businessfinal-header {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.businessfinal-heading {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.businessfinal-description {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Grid layout for the titles, images, and points */
+.businessfinal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Individual grid items */
+.businessfinal-item {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.businessfinal-image {
+  width: 100%;
+  height: auto; /* Ensures the image scales with its container */
+  max-height: 30vh;
+  margin-bottom: 15px;
+  object-fit: cover; /* Keeps the image aspect ratio intact */
+}
+
+.businessfinal-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.businessfinal-points {
+  list-style: none;
+  padding: 0;
+}
+
+.businessfinal-point {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.black-box {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  margin-right: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .businessfinal-heading {
+      font-size: 32px;
+  }
+
+  .businessfinal-description {
+      font-size: 16px;
+  }
+
+  .businessfinal-grid {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust grid column size for better alignment */
+  }
+
+  .businessfinal-image {
+      max-height: 20vh; /* Reduce image size for medium screens */
+  }
+
+  .businessfinal-title {
+      font-size: 18px;
+  }
+
+  .businessfinal-point {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .businessfinal-heading {
+      font-size: 24px;
+  }
+
+  .businessfinal-description {
+      font-size: 14px;
+  }
+
+  .businessfinal-grid {
+      grid-template-columns: 1fr; /* Single-column layout for small screens */
+      gap: 5px; /* Reduced gap for better spacing */
+  }
+
+  .businessfinal-item {
+      padding: 15px; /* Reduce padding for better spacing */
+  }
+
+  .businessfinal-image {
+      width: 100%;
+      height: auto;
+      max-height: 15vh; /* Further reduce image size */
+      margin-bottom: 10px;
+  }
+
+  .businessfinal-title {
+      font-size: 16px;
+  }
+
+  .businessfinal-point {
+      font-size: 12px;
+  }
+}

@@ -1,0 +1,169 @@
+/* Container styling for the Impact component */
+.impact-container {
+  padding: 20px;
+  background-color: white;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+/* Main content for the impact section */
+.impact-content {
+  text-align: left;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+.impact-heading {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.impact-description {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.impact-description1{
+   font-size: 18px;
+   font-weight: 400;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.impact-highlight {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.impact-infi {
+  /* color: red; */
+  font-family: cursive;
+}
+
+/* Image rows styling */
+.impact-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.impact-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.image-with-point {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.image-with-point img {
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.impact-point {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.black-box {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: black;
+  margin-right: 8px;
+}
+
+/* Row 2 styling with content beside images */
+.impact-row-2 {
+  display: flex;
+  margin-top: 40px;
+  /* justify-content: space-between; */
+  gap: 100px;
+  align-items: center;
+  width: 100%;
+}
+
+.image-with-point2{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.image-with-point2 img{
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+}
+
+.impact-point2 {
+  margin-top: 10px;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+
+
+.impact-footer {
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.impact-footer a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+/* .impact-footer a:hover {
+  text-decoration: underline;
+} */
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .impact-row {
+    flex-wrap: wrap;
+  }
+
+  .impact-footer p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .impact-row img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .impact-description {
+    font-size: 16px;
+  }
+
+  .impact-row-2 {
+    display: flex;
+    margin-top: 40px;
+    /* justify-content: space-between; */
+    gap: 50px;
+  }
+
+  .impact-heading {
+    font-size: 20px;
+  }
+
+  .impact-footer p {
+    font-size: 10px;
+  }
+}

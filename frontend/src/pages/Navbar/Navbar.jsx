@@ -3,7 +3,6 @@ import "./Navbar.css";
 // import infinity1 from "./infinity1.gif";
 // import imgamx from "../../assets/infinity1.png"; // Adjust the path if needed
 import imgamx from "../Aboutus/amxsol.png";
-
 import inimg from "./in.png";
 import { Link } from "react-router-dom";
 import {
@@ -132,7 +131,10 @@ const Navbar = () => {
                               </div>
 
                               <div>
-                                <Link className="text-color text-lg">
+                                <Link
+                                  to={"/Businesssolution"}
+                                  className="text-color text-lg"
+                                >
                                   {" "}
                                   Business Solutions{" "}
                                 </Link>
@@ -265,7 +267,7 @@ const Navbar = () => {
                               <Link className="text-color">Digital</Link>
                             </li>
                             <li className="">
-                              <Link className="text-color">
+                              <Link to={"/legal"} className="text-color">
                                 Legal Solutions
                               </Link>
                             </li>
@@ -580,9 +582,11 @@ const Navbar = () => {
                         <li className="aligning">
                           <li className="my-[20px] flex w-full ">
                             <div className="sub">
-                              <Link className="text-color text-lg">
-                                {" "}
-                                Newsroom{" "}
+                              <Link
+                                to={"/newsroom"}
+                                className="text-color text-lg"
+                              >
+                                Newsroom
                               </Link>
                             </div>
                           </li>
@@ -804,8 +808,10 @@ const Navbar = () => {
                               </div>
 
                               <div>
-                                <Link className="text-color text-lg">
-                                  {" "}
+                                <Link
+                                  to={"/Businesssolution"}
+                                  className="text-color text-lg"
+                                >
                                   Business Solutions{" "}
                                 </Link>
                               </div>
@@ -925,7 +931,6 @@ const Navbar = () => {
 
                             <div>
                               <Link className="text-color text-lg">
-                                {" "}
                                 Business Solutions{" "}
                               </Link>
                             </div>
@@ -937,7 +942,7 @@ const Navbar = () => {
                               <Link className="text-color">Digital</Link>
                             </li>
                             <li className="">
-                              <Link className="text-color">
+                              <Link to={"/legal"} className="text-color">
                                 Legal Solutions
                               </Link>
                             </li>
@@ -1764,7 +1769,10 @@ const Navbar = () => {
                                     </Link>
                                   </li>
                                   <li className="pl-[20px]">
-                                    <Link className="text-color texts">
+                                    <Link
+                                      to={"/legal"}
+                                      className="text-color texts"
+                                    >
                                       Legal Solutions
                                     </Link>
                                   </li>
