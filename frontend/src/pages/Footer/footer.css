@@ -46,6 +46,17 @@
   font-weight: bolder;
 }
 
+@media (max-width: 768px) {
+  .mainheadfooter {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .mainheadfooter1 {
+    grid-template-columns: 100%;
+  }
+}
+
 /*  */
 
 .footer {

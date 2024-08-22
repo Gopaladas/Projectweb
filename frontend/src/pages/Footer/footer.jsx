@@ -385,7 +385,8 @@ const Footer = () => {
         </div> */}
 
           <div className="card_i flex">
-            <a
+            <img src={amxsolImage} className="h-[100px] w-[200px]" />
+            {/* <a
               href="https://www.linkedin.com/company/amxsol"
               className="socialContainer containerOne"
             >
@@ -404,10 +405,10 @@ const Footer = () => {
               class="socialContainer containerThree"
             >
               <FaTwitter color="black" />
-            </a>
+            </a> */}
 
             {/* <a href="https://whatsapp.com/channel/0029Vad8BxA1dAwCpJZtys2V"> */}
-            <a
+            {/* <a
               href="https://whatsapp.com/channel/0029Vad8BxA1dAwCpJZtys2V"
               class="socialContainer containerFour"
             >
@@ -423,7 +424,7 @@ const Footer = () => {
 
             <a href="#" class="socialContainer containerOne">
               <FaInstagram color="black" />
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="copyright-container  text-center py-3 text-sm text-white m-10">
